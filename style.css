@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,600;1,700;1,800;1,900&family=Righteous&display=swap');
+
+/*color pallete
+393E41
+E94F37
+F6F7EB
+5C415D
+*/
+
+body{
+    margin:0;
+}
+
+header{
+    text-align: center;
+}
+
+.title {
+  font-family:'Righteous';
+  margin: 30px 0 0 0;
+  font-size: 48px;
+}
+
+.subtitle{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.result-display{
+    box-sizing: border-box;
+    margin: 50px auto 5px auto;
+    height: 100px;
+    width: 400px;
+    background-color: transparent;
+    border: 2px solid #5C415D;
+}
+
+.outer-calc-box{
+display: flex;
+justify-content: center;
+}
+
+.main-calc-box{
+    margin: 0 auto 50px auto;
+    background-color: #5C415D;
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px;
+}
+
+#ce{
+    grid-column-start:1;
+    grid-column-end:3;
+    background: red;
+}
+
+#back{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background: yellow;
+}
+
+#one{
+    grid-column-start:1;
+    background: blue;
+}
+
+#two{
+    grid-column-start:2;
+    background: black;
+}
+
+#three{
+    grid-column-start:3;
+    grid-column-end:3;
+    background: cyan;
+}
+
+#four{
+    grid-column-start:1;
+    grid-row-start:3;
+    background: green;
+}
+
+#five{
+    grid-column-start:2;
+    background: yellow;
+}
+
+#six{
+    grid-column-start:3;
+    background: red;
+}
+
+#seven{
+    grid-column-start:1;
+    grid-row-start:4;
+    background: blue;
+}
+
+#eight{
+    grid-column-start:2;
+    background: violet;
+}
+
+#nine{
+    grid-column-start:3;
+    background: cyan;
+}
+
+#+{
+
+}
