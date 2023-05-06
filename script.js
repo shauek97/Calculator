@@ -16,8 +16,36 @@ const minusBtn = document.querySelector("#minus");
 const multiplyBtn = document.querySelector("#multiply");
 const splitBtn = document.querySelector("#split");
 const equalBtn = document.querySelector("#equal");
+
 const mathResult = document.querySelector("#math-result");
+const ingredients = document.querySelectorAll('.ingredient');
 
 function calcEngine(){
+    const clickedDigits = [];
     
-}
+//place beside clicked numbers in mathresult place
+//how?
+//
+//create variable for inputed number
+//how to create it?
+    let mathResultHtml = mathResult.innerHTML;
+    
+    
+    
+    for(let ingredient of ingredients){
+        
+        let cellInnerHtml = ingredient.getElementsByTagName('h2')[0].innerHTML;
+        
+        console.log(cellInnerHtml)
+        ingredient.addEventListener('click', function(){     
+            clickedDigits.push(cellInnerHtml.toString())     
+            
+            console.log(clickedDigits)
+            console.log(clickedDigits.join(''))
+
+        });
+    }
+    
+};
+
+calcEngine();
