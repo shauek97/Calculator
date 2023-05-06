@@ -42,7 +42,7 @@ function calcEngine(){
             
             console.log(clickedDigits)
             console.log(clickedDigits.join(''))
-
+            mathResult.innerHTML = clickedDigits.join('');
         });
     }
     
