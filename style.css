@@ -8,6 +8,7 @@ F6F7EB
 */
 
 body {
+  background: #F6F7EB;
   margin: 0;
 }
 
@@ -71,13 +72,18 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.4s;
+}
+
+.cell:hover{
+  background: #393E41;
 }
 
 .cell-text {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 32px;
-  color: white;
+  color: #F6F7EB;
 }
 
 #ce {
