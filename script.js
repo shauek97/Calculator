@@ -43,7 +43,7 @@ function calcEngine(){
        let finalResult = eval(clickedIngredients.join(''));
        mathResult.innerHTML = finalResult;
        clickedIngredients = [];
-       clickedIngredients.push(finalResult.toString().(''))
+       clickedIngredients.push(finalResult.toString())
        console.log(clickedIngredients)
     });
 };
