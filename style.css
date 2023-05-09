@@ -176,3 +176,22 @@ header {
   font-size: 52px;
   font-weight: 600;
 }
+
+footer{
+  text-align: end;
+
+}
+
+.signature{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  padding-right: 15px;
+  margin: 0;
+}
+
+.signature span{
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
