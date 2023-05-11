@@ -50,10 +50,3 @@ function calcEngine(){
 
 calcEngine();
 
-
-
-// teraz mam pobrac zmienna pierwszej wpisanej liczby
-// klikniecie operatora ma wtłoczyć liczbe do tablicy - wtłacza
-// jednoczesnie ma wyjebac samego operatora z tej tablicy
-// kliknięcie = ma wykonywać działanie pomiędzy jedną liczbą w tablicy a drugą
-
